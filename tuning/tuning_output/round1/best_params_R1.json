@@ -1,0 +1,18 @@
+{
+    "objective_scale": 1.169206321865704,
+    "loose_constraints": true,
+    "flow_penalty_mul_loose": 0.0015315133198431322,
+    "cycle_penalty_mul": 0.20912009185477046,
+    "min_cycle": 3,
+    "max_cycle": 6,
+    "num_reads": 500,
+    "trotter": 64,
+    "gamma_start": 9.444507069970609,
+    "gamma_end": 0.06733300199575584,
+    "beta_start": 0.09717301545078957,
+    "beta_end": 1.107330076987967,
+    "avg_profit": 0.012659122448979593,
+    "total_profit": 0.6202970000000001,
+    "num_timestamps": 49,
+    "trial_number": 16
+}

@@ -1,0 +1,18 @@
+{
+    "best_params": {
+        "objective_scale": 0.5520161162025651,
+        "flow_penalty_mul": 0.0001614926081991624,
+        "cycle_penalty_mul": 0.30263018516359885,
+        "transverse_field_start": 9.368222185651945,
+        "transverse_field_end": 0.07460190375366856,
+        "beta_start": 0.6432396215362882,
+        "beta_end": 1.5946959712570992,
+        "num_reads": 500,
+        "num_trotter_slices": 64,
+        "max_cycle_length": 6
+    },
+    "user_attrs": {
+        "total_profit": 0.6202970000000001,
+        "num_timestamps": 49
+    }
+}

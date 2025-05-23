@@ -1,0 +1,13 @@
+{
+  "objective_scale": 0.6703554621517113,
+  "flow_penalty_mul": 0.00043987782679892883,
+  "cycle_penalty_mul": 0.2681824217043042,
+  "transverse_field_start": 5.891468914643115,
+  "transverse_field_end": 0.06733581196983009,
+  "beta_start": 0.6594610988631641,
+  "beta_end": 2.3585716619226718,
+  "num_reads": 100,
+  "num_trotter_slices": 64,
+  "max_cycle_length": 6.0,
+  "min_cycle_length": 3.0
+}
