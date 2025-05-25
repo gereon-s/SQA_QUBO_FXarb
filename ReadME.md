@@ -8,12 +8,12 @@
 
 ## Abstract
 
-This project implements and evaluates a system for detecting foreign exchange (FX) arbitrage opportunities using quantum-inspired optimization techniques. The system formulates arbitrage detection as a Quadratic Unconstrained Binary Optimization (QUBO) problem and employs a custom Simulated Quantum Annealing (SQA) sampler for solution finding. Performance is benchmarked against the traditional Bellman-Ford algorithm for negative cycle detection.
+This project implements and evaluates a system for detecting FX arbitrage opportunities using quantum-inspired optimization techniques. The system formulates arbitrage detection as a Quadratic Unconstrained Binary Optimization (QUBO) problem and applied a custom Simulated Quantum Annealing (SQA) sampler for solution finding. Performance is benchmarked against the Bellman-Ford algorithm for negative cycle detection.
 
 **Key Contributions:**
 - Adaptive QUBO formulation with dynamic penalty scaling
 - Custom SQA implementation optimized with Numba JIT compilation
-- Comprehensive hyperparameter optimization using Optuna with time-series cross-validation
+- Comprehensive hyperparameter tuning using Optuna with time-series cross-validation
 - Statistical comparison framework between quantum-inspired and classical approaches
 
 ---
@@ -22,14 +22,14 @@ This project implements and evaluates a system for detecting foreign exchange (F
 
 ```
 REPO/
-├── main.py                    # Core implementation: ArbitrageDetector, QUBOBuilder
+├── main.py                    # Core implementation: ArbitrageDetector, QUBOBuilder, etc.
 ├── sqa_implementation.py      # Custom Simulated Quantum Annealing sampler
 ├── data/                      # FX time-series data (placeholder files)
 │   ├── fx_data_march.csv
 │   └── fx_data_april.csv
 ├── tuning/                    # Hyperparameter optimization
 │   ├── tuner.py              # Initial Optuna optimization
-│   ├── tuner_round2.py       # Refined optimization with seeding
+│   ├── tuner_round2.py       # Refined optimization 
 │   ├── tunerCV.py           # Time-series cross-validation tuning
 │   └── tuning_output/
 │       ├── round1/          # Initial tuning results
@@ -260,7 +260,6 @@ Non-parametric tests for robust comparison:
 ## Data License Notice
 
 The actual FX market data used in this research is licensed from Refinitiv and cannot be redistributed.
-Refinitiv Codebook IDE code attached.
 
 ---
 
@@ -269,6 +268,3 @@ Refinitiv Codebook IDE code attached.
 Detailed references and mathematical derivations are provided in the full thesis document.
 
 ---
-
-## Usage
-This code is part of a Bachelor thesis submitted for academic evaluation. 
